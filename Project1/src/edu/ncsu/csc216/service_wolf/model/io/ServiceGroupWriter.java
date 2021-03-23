@@ -28,7 +28,7 @@ public class ServiceGroupWriter {
 					pw.print(in.toString()); 
 					//pw.println(in.getIncidentLogMessages());
 				}
-			}
+			
 			pw.close();
 		}catch(Exception e) {
 			throw new IllegalArgumentException("Unable to save file.");
