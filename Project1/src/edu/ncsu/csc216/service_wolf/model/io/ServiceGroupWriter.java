@@ -21,7 +21,7 @@ public class ServiceGroupWriter {
 		try {
 			 
 			PrintWriter pw = new PrintWriter(fileName);
-			for(int i=0; i<list.size(); i++) {
+			for(int i=0;i<list.size();i++) {
 				pw.println("# " + list.get(i).getServiceGroupName());
 				for(int j=0; j<list.get(i).getIncidents().size(); j++) {
 					Incident in = list.get(i).getIncidents().get(j);
